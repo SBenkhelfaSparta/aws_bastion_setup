@@ -1,4 +1,7 @@
 # Creating a Bastion Host for your App
+
+![img](diagram.png)
+
 ### All the Steps:
 - Create a VPC. In my case I chose the IP 10.208.0.0/16
 - Name the route table that was created
