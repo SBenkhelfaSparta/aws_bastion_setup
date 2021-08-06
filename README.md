@@ -10,6 +10,7 @@
    - app will have ssh, http and open port 3000
    - db will have ssh and port 27017 open. The inbound rule source should point to the security gates of the public and bastion ones instead of manually typing in the IPs that can change
    - bastion will have ssh
+- On Route Tables explicitly associate the public and bastion subnets
 - Make instances for all 3. When making the db make sure to disable the public ip
 
 - Use this line to copy the key to the bastion server:
