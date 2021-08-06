@@ -3,7 +3,7 @@
 - Create a VPC. In my case I chose the IP 10.208.0.0/16
 - Name the route table that was created
 - Create an internet gateway and attach it to the VPC
-- Name the NACL created and create 3 NACLs for the private, public and bastion instances with custom inbound and outbound rules
+- Name the NACL created and create 3 NACLs for the private, public and bastion instances with custom inbound and outbound rules. For ssh responses make sure ports `1024 - 65535` are open
 - Go to the Subnets page and create a public, private and bastion subnet with mask /24. Link them with the NACLs
 - Go back to the route table and add the internet gateway to the routes and link the public and bastion subnets to explicit associations
 - Create security groups for all 3:
